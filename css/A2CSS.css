@@ -1,0 +1,168 @@
+body {
+    background: #FFFFFF;
+    background: -moz-linear-gradient(-45deg, #FFFFFF 0%, #FFF5DA 50%, #FFE9CD 100%);
+    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #FFF5DA 50%, #FFE9CD 100%);
+    background: linear-gradient(135deg, #FFFFFF 0%, #FFF5DA 50%, #FFE9CD 100%);
+    background-repeat: no-repeat;
+}
+
+#token1 {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #E6879A;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    left: 0px;
+}
+
+#token2 {
+    margin-right: 50px;
+    margin-top: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #454545;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    position: absolute;
+    top: 175px;
+    right: 0px;
+}
+
+#timer {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: bold;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    display: block;
+}
+
+#gameField {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: block;
+    margin-top: 40px;
+    border-width: 12px;
+    border-style: ridge;
+    border-color: #64ADDD;
+}
+
+#white-circle {
+    display: none;
+}
+
+#red-circle {
+    display: none;
+}
+
+#black-circle {
+    display: none;
+}
+
+#infobox {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    border-width: 8px;
+    border-style: dotted;
+    border-color: #1C6EA4;
+}
+
+p.info {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    width: 800px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: 1px 2px 2px rgba(43,92,208,0.5);
+}
+
+#playerMessage {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    width: 600px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#heading {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+  
+#playerMessage p {
+    margin: 5%;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+#button {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#play {
+    color: rgb(255, 255, 255); font-size: 18px; line-height: 18px; padding: 10px; border-radius: 20px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164);}
+    .myButton:hover {
+    background: #1C6EA4; }
+    .myButton:active {
+    background: rgb(100, 157, 196);
+}
